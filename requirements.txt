@@ -1,6 +1,7 @@
-streamlit
+streamlit==1.38.0
 st-pages
 altair<5
 python-docx 
 docx2pdf
-streamlit-extras
+streamlit-extras==0.4.7
+PyPDF2==3.0.1
