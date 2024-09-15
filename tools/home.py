@@ -14,7 +14,8 @@ def home():
     if my_grid.button("Word to PDF", use_container_width=True):
         st.switch_page("tools/word_to_pdf.py")
     my_grid.button("PDF to Word", use_container_width=True)
-    my_grid.button("Merge PDF",use_container_width=True)
+    if my_grid.button("Merge PDF",use_container_width=True):
+        st.switch_page("tools/merge_pdf.py")
 
     # Row 3
     my_grid.subheader("Image Converter", anchor=False)
